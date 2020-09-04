@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-04T13:03:57.312Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="2b4PbwcpB6FFetdSqdq6" version="13.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-09-04T14:10:38.725Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="phOk8SCK5-4XSHxfz62T" version="13.6.6" type="github" pages="8">
   <diagram id="wDG5H0-7p6YG-bDGUhvO" name="SET up">
     <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -353,7 +353,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="9m_RLX7jdpOay4QP6l3k" name="Production settings">
+  <diagram id="9m_RLX7jdpOay4QP6l3k" name="Prod ES settings">
     <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="kHlB8dQK3G2sEtGyboNJ-0" />
@@ -382,6 +382,93 @@
         <mxCell id="kHlB8dQK3G2sEtGyboNJ-9" value="configure &lt;br&gt;&lt;b&gt;XX:ErrorFile &lt;/b&gt;in&lt;b&gt; &lt;/b&gt;jvm.options file" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=1;fontSize=12;fillColor=#fff2cc;gradientColor=#ffd966;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
           <mxGeometry x="220" y="100" width="125" height="65" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ReY9OTF5dtfbuHO5mWL9" name="Prod OS Settings">
+    <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="QrQ7bE5ScxU_AL47Vb09-0" />
+        <mxCell id="QrQ7bE5ScxU_AL47Vb09-1" parent="QrQ7bE5ScxU_AL47Vb09-0" />
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;fontSize=12;" edge="1" parent="QrQ7bE5ScxU_AL47Vb09-1" source="kWMVP0w7WqT_cpr3i6Sv-0" target="kWMVP0w7WqT_cpr3i6Sv-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;fontSize=12;" edge="1" parent="QrQ7bE5ScxU_AL47Vb09-1" source="kWMVP0w7WqT_cpr3i6Sv-0" target="kWMVP0w7WqT_cpr3i6Sv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;fontSize=12;" edge="1" parent="QrQ7bE5ScxU_AL47Vb09-1" source="kWMVP0w7WqT_cpr3i6Sv-0" target="kWMVP0w7WqT_cpr3i6Sv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-0" value="/etc/security/limits.conf" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;fontSize=12;gradientColor=#97d077;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="215" y="210" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-1" value="&lt;b&gt;systemd&lt;/b&gt; configuration file" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;fontSize=12;gradientColor=#97d077;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="215" y="120" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;fontSize=12;" edge="1" parent="QrQ7bE5ScxU_AL47Vb09-1" source="kWMVP0w7WqT_cpr3i6Sv-2" target="kWMVP0w7WqT_cpr3i6Sv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-2" value="&lt;b&gt;Virtual Memory config&lt;br&gt;&lt;/b&gt;sysctl -w vm.max_map_count=262144" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;fontSize=12;gradientColor=#ffd966;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="415" y="390" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-3" value="&lt;b&gt;disable swap&lt;/b&gt;&lt;br&gt;&lt;br&gt;sudo swapoff -a&amp;nbsp; &lt;b&gt;OR&lt;/b&gt;&amp;nbsp;comment on /etc/fstab&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontSize=12;gradientColor=#b3b3b3;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="420" y="110" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-4" value="nofile" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;strokeColor=#FF230A;strokeWidth=1;fillColor=none;fontSize=12;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="215" y="310" width="65" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;fontSize=12;" edge="1" parent="QrQ7bE5ScxU_AL47Vb09-1" source="kWMVP0w7WqT_cpr3i6Sv-6" target="kWMVP0w7WqT_cpr3i6Sv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;fontSize=12;" edge="1" parent="QrQ7bE5ScxU_AL47Vb09-1" source="kWMVP0w7WqT_cpr3i6Sv-6" target="kWMVP0w7WqT_cpr3i6Sv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-6" value="/etc/sysctl.conf" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;fontSize=12;gradientColor=#7ea6e0;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="570" y="210" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-7" value="vm.max_map_count" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;strokeColor=#FF230A;strokeWidth=1;fillColor=none;fontSize=12;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="480" y="305" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-9" value="ulimit -n 65535&lt;br&gt;ulimit -u 4096" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;fontSize=12;gradientColor=#ffd966;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="90" y="300" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-12" value="nproc" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;strokeColor=#FF230A;strokeWidth=1;fillColor=none;fontSize=12;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="300" y="310" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;fontSize=12;" edge="1" parent="QrQ7bE5ScxU_AL47Vb09-1" source="kWMVP0w7WqT_cpr3i6Sv-14" target="kWMVP0w7WqT_cpr3i6Sv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-14" value="No. file/ resouce can open" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="180" y="410" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;fontSize=12;" edge="1" parent="QrQ7bE5ScxU_AL47Vb09-1" source="kWMVP0w7WqT_cpr3i6Sv-15" target="kWMVP0w7WqT_cpr3i6Sv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-15" value="No. of threads can create" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="305" y="410" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;fontSize=12;" edge="1" parent="QrQ7bE5ScxU_AL47Vb09-1" source="kWMVP0w7WqT_cpr3i6Sv-18" target="kWMVP0w7WqT_cpr3i6Sv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-18" value="&lt;b&gt;reduce TCP RE-Transmission&lt;/b&gt;&lt;br&gt;&lt;br&gt;sysctl -w net.ipv4.tcp_tetries2=5&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;fontSize=12;gradientColor=#ffd966;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="650" y="385" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-19" value="net.ipv4.tcp_retries2" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;strokeColor=#FF230A;strokeWidth=1;fillColor=none;fontSize=12;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="660" y="305" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kWMVP0w7WqT_cpr3i6Sv-23" value="Check with network team, not to kill connection among node in cluster, though it is ide for long-run" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;strokeColor=#000000;fontColor=#FF0000;" vertex="1" parent="QrQ7bE5ScxU_AL47Vb09-1">
+          <mxGeometry x="325" y="520" width="315" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vEMZyCje2YYw7tOpjlip" name="Prod Bootstrap Check">
+    <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="s5fDddgZY08a006xAAcH-0" />
+        <mxCell id="s5fDddgZY08a006xAAcH-1" parent="s5fDddgZY08a006xAAcH-0" />
       </root>
     </mxGraphModel>
   </diagram>
