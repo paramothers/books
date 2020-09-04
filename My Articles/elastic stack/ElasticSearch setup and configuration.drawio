@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-04T03:49:37.796Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="qvgpSI14CaUD2lXEKotW" version="13.6.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-09-04T12:08:21.152Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="KdMaYoHFOXn-N0J1XQpU" version="13.6.6" type="github" pages="6">
   <diagram id="wDG5H0-7p6YG-bDGUhvO" name="SET up">
-    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2sK6oQpnumkfDggS_QBz" name="START up">
-    <mxGraphModel dx="868" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-s7DTk7jCgwtFwPN84T8-0" />
         <mxCell id="-s7DTk7jCgwtFwPN84T8-1" parent="-s7DTk7jCgwtFwPN84T8-0" />
@@ -349,6 +349,29 @@
         </mxCell>
         <mxCell id="CRJCEfw5HLWcTQn2cQUY-23" value="&lt;font style=&quot;font-size: 12px ; background-color: rgb(255 , 255 , 255)&quot;&gt;data&lt;br&gt;&lt;br&gt;( path.data )&amp;nbsp;&lt;/font&gt;" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=#FF96C0;strokeColor=#000000;strokeWidth=1;fontSize=8;" vertex="1" parent="Ugl7BQKOG8BAdIkcvLxV-1">
           <mxGeometry x="220" y="320" width="80" height="72" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9m_RLX7jdpOay4QP6l3k" name="Production settings">
+    <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="kHlB8dQK3G2sEtGyboNJ-0" />
+        <mxCell id="kHlB8dQK3G2sEtGyboNJ-1" parent="kHlB8dQK3G2sEtGyboNJ-0" />
+        <mxCell id="kHlB8dQK3G2sEtGyboNJ-2" value="configure &lt;b&gt;path.log&lt;/b&gt; and &lt;b&gt;path.data&lt;/b&gt; to point outside of installation directory" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=1;fontSize=12;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
+          <mxGeometry x="120" y="70" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kHlB8dQK3G2sEtGyboNJ-3" value="configure &lt;br&gt;&lt;b&gt;cluster.name&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#82b366;strokeWidth=1;fontSize=12;fillColor=#d5e8d4;gradientColor=#97d077;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
+          <mxGeometry x="285" y="70" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kHlB8dQK3G2sEtGyboNJ-4" value="configure &lt;br&gt;&lt;b&gt;node.name&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#996185;strokeWidth=1;fontSize=12;fillColor=#e6d0de;gradientColor=#d5739d;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
+          <mxGeometry x="120" y="160" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kHlB8dQK3G2sEtGyboNJ-5" value="configure &lt;br&gt;&lt;b&gt;network.host&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=1;fontSize=12;fillColor=#fff2cc;gradientColor=#ffd966;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
+          <mxGeometry x="285" y="150" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kHlB8dQK3G2sEtGyboNJ-6" value="discovery.seed_hosts and cluster.initial_master_nodes" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;strokeWidth=1;fontSize=12;fillColor=#ffcd28;gradientColor=#ffa500;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
+          <mxGeometry x="410" y="70" width="170" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
