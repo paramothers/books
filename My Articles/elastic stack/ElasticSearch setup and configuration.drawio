@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-04T12:08:21.152Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="KdMaYoHFOXn-N0J1XQpU" version="13.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-09-04T13:03:57.312Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="2b4PbwcpB6FFetdSqdq6" version="13.6.6" type="github" pages="6">
   <diagram id="wDG5H0-7p6YG-bDGUhvO" name="SET up">
     <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -359,19 +359,28 @@
         <mxCell id="kHlB8dQK3G2sEtGyboNJ-0" />
         <mxCell id="kHlB8dQK3G2sEtGyboNJ-1" parent="kHlB8dQK3G2sEtGyboNJ-0" />
         <mxCell id="kHlB8dQK3G2sEtGyboNJ-2" value="configure &lt;b&gt;path.log&lt;/b&gt; and &lt;b&gt;path.data&lt;/b&gt; to point outside of installation directory" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=1;fontSize=12;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
-          <mxGeometry x="120" y="70" width="140" height="70" as="geometry" />
+          <mxGeometry x="20" y="30" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="kHlB8dQK3G2sEtGyboNJ-3" value="configure &lt;br&gt;&lt;b&gt;cluster.name&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#82b366;strokeWidth=1;fontSize=12;fillColor=#d5e8d4;gradientColor=#97d077;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
-          <mxGeometry x="285" y="70" width="85" height="50" as="geometry" />
+          <mxGeometry x="220" y="30" width="85" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kHlB8dQK3G2sEtGyboNJ-4" value="configure &lt;br&gt;&lt;b&gt;node.name&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#996185;strokeWidth=1;fontSize=12;fillColor=#e6d0de;gradientColor=#d5739d;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
-          <mxGeometry x="120" y="160" width="90" height="50" as="geometry" />
+          <mxGeometry x="420" y="30" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kHlB8dQK3G2sEtGyboNJ-5" value="configure &lt;br&gt;&lt;b&gt;network.host&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=1;fontSize=12;fillColor=#fff2cc;gradientColor=#ffd966;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
-          <mxGeometry x="285" y="150" width="85" height="50" as="geometry" />
+          <mxGeometry x="320" y="30" width="85" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kHlB8dQK3G2sEtGyboNJ-6" value="discovery.seed_hosts and cluster.initial_master_nodes" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;strokeWidth=1;fontSize=12;fillColor=#ffcd28;gradientColor=#ffa500;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
-          <mxGeometry x="410" y="70" width="170" height="80" as="geometry" />
+        <mxCell id="kHlB8dQK3G2sEtGyboNJ-6" value="discovery.&lt;b&gt;seed_hosts&lt;/b&gt; and cluster.&lt;b&gt;initial_master_nodes&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;strokeWidth=1;fontSize=12;fillColor=#ffcd28;gradientColor=#ffa500;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
+          <mxGeometry x="20" y="110" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kHlB8dQK3G2sEtGyboNJ-7" value="&lt;b&gt;Xmx&lt;/b&gt; &amp;amp; &lt;b&gt;Xms&lt;/b&gt; should not be &amp;gt;50% of RAM" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#82b366;strokeWidth=1;fontSize=12;fillColor=#d5e8d4;gradientColor=#97d077;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
+          <mxGeometry x="220" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kHlB8dQK3G2sEtGyboNJ-8" value="set envirornment variable $ES_TMPDIR&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#996185;strokeWidth=1;fontSize=12;fillColor=#e6d0de;gradientColor=#d5739d;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
+          <mxGeometry x="20" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHlB8dQK3G2sEtGyboNJ-9" value="configure &lt;br&gt;&lt;b&gt;XX:ErrorFile &lt;/b&gt;in&lt;b&gt; &lt;/b&gt;jvm.options file" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=1;fontSize=12;fillColor=#fff2cc;gradientColor=#ffd966;" vertex="1" parent="kHlB8dQK3G2sEtGyboNJ-1">
+          <mxGeometry x="220" y="100" width="125" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
