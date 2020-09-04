@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-04T02:17:23.039Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="pQTiicU77kYCfIexJUhV" version="13.6.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-09-04T18:02:52.501Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="dIfqaMLl3_1nQe0oq7Rh" version="13.6.6" type="github" pages="9">
   <diagram id="YEvQqRV3Q-EkDs913GGv" name="ES-General">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,6 +66,9 @@
         </mxCell>
         <mxCell id="EzzEQg21D30T7JtYEY2l-2" value="Programming &lt;br&gt;client&amp;nbsp;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="175" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eYxQthOKgEq_h0jDLSHv-1" value="Open source product" style="shape=dataStorage;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="15" width="100" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
