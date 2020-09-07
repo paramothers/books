@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-04T18:02:47.914Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="VaRDqkyganoPnO7UZSqP" version="13.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-09-07T06:32:09.618Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="TEQjfeFztP4aGwvjgacP" version="13.6.6" type="github" pages="8">
   <diagram id="wDG5H0-7p6YG-bDGUhvO" name="SET up">
     <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,15 +56,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2sK6oQpnumkfDggS_QBz" name="START up">
-    <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-s7DTk7jCgwtFwPN84T8-0" />
         <mxCell id="-s7DTk7jCgwtFwPN84T8-1" parent="-s7DTk7jCgwtFwPN84T8-0" />
         <mxCell id="L8ZmX-2aOefHg_B9PgT6-0" value="To prevent starting of ES by password, make password protected-keystore&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#C738E6;strokeWidth=1;fillColor=#D6FCFF;" parent="-s7DTk7jCgwtFwPN84T8-1" vertex="1">
-          <mxGeometry x="20" y="20" width="170" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="KryWOUNheGYgvrm1XsuI-0" value="point log, data, and config folder to outside of installation directory" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;gradientColor=#97d077;" parent="-s7DTk7jCgwtFwPN84T8-1" vertex="1">
-          <mxGeometry x="220" y="20" width="170" height="70" as="geometry" />
+          <mxGeometry x="40" y="30" width="170" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -502,13 +499,13 @@
           <mxGeometry x="80" y="40" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Qud5RLwMdBzf8U0N3zik-1" value="&lt;font color=&quot;#000000&quot;&gt;Heap size check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;fontSize=13;gradientColor=#7ea6e0;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
-          <mxGeometry x="80" y="130" width="110" height="40" as="geometry" />
+          <mxGeometry x="110" y="130" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qud5RLwMdBzf8U0N3zik-3" value="&lt;font color=&quot;#000000&quot;&gt;File Descriptor check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;strokeWidth=2;fillColor=#ffcd28;fontSize=13;gradientColor=#ffa500;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
-          <mxGeometry x="80" y="180" width="110" height="40" as="geometry" />
+          <mxGeometry x="110" y="180" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qud5RLwMdBzf8U0N3zik-4" value="&lt;font color=&quot;#000000&quot;&gt;Memory lock check&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#996185;strokeWidth=2;fillColor=#e6d0de;fontSize=13;gradientColor=#d5739d;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
-          <mxGeometry x="80" y="240" width="110" height="40" as="geometry" />
+          <mxGeometry x="110" y="230" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qud5RLwMdBzf8U0N3zik-5" value="&lt;font color=&quot;#000000&quot;&gt;Maximum number of threads check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=2;fillColor=#fff2cc;fontSize=13;gradientColor=#ffd966;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
           <mxGeometry x="230" y="130" width="110" height="40" as="geometry" />
@@ -517,31 +514,46 @@
           <mxGeometry x="230" y="180" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HFtSwGTxmYRGLp4DLuxZ-0" value="&lt;font color=&quot;#000000&quot;&gt;Max&amp;nbsp; size virtual memory check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;strokeWidth=2;fillColor=#ffcd28;fontSize=13;gradientColor=#ffa500;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
-          <mxGeometry x="230" y="240" width="110" height="40" as="geometry" />
+          <mxGeometry x="230" y="230" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1siICeFJhea12dSi_VnX-0" value="&lt;font color=&quot;#000000&quot;&gt;max map count check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#996185;strokeWidth=2;fillColor=#e6d0de;fontSize=13;gradientColor=#d5739d;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
-          <mxGeometry x="370" y="130" width="110" height="40" as="geometry" />
+          <mxGeometry x="350" y="130" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1siICeFJhea12dSi_VnX-1" value="&lt;font color=&quot;#000000&quot;&gt;Use Serial Collector check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=2;fillColor=#fff2cc;fontSize=13;gradientColor=#ffd966;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
-          <mxGeometry x="370" y="180" width="110" height="40" as="geometry" />
+          <mxGeometry x="350" y="180" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1siICeFJhea12dSi_VnX-2" value="&lt;font color=&quot;#000000&quot;&gt;System call filter check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;fontSize=13;gradientColor=#7ea6e0;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
-          <mxGeometry x="370" y="240" width="110" height="40" as="geometry" />
+          <mxGeometry x="350" y="230" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1siICeFJhea12dSi_VnX-3" value="&lt;font color=&quot;#000000&quot;&gt;OnError and OnOutOfMemoryError check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;fontSize=13;gradientColor=#7ea6e0;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
-          <mxGeometry x="500" y="130" width="130" height="60" as="geometry" />
+          <mxGeometry x="470" y="130" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1siICeFJhea12dSi_VnX-4" value="&lt;font color=&quot;#000000&quot;&gt;Early-access openJDK check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=2;fillColor=#fff2cc;fontSize=13;gradientColor=#ffd966;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
-          <mxGeometry x="500" y="240" width="110" height="40" as="geometry" />
+          <mxGeometry x="470" y="230" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1siICeFJhea12dSi_VnX-5" value="&lt;font color=&quot;#000000&quot;&gt;G1GC check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;strokeWidth=2;fillColor=#ffcd28;fontSize=13;gradientColor=#ffa500;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
-          <mxGeometry x="500" y="210" width="110" height="20" as="geometry" />
+          <mxGeometry x="470" y="200" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="1siICeFJhea12dSi_VnX-6" value="&lt;font color=&quot;#000000&quot;&gt;All Permission check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#996185;strokeWidth=2;fillColor=#e6d0de;fontSize=13;gradientColor=#d5739d;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
-          <mxGeometry x="230" y="300" width="110" height="40" as="geometry" />
+          <mxGeometry x="230" y="280" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1siICeFJhea12dSi_VnX-7" value="&lt;font color=&quot;#000000&quot;&gt;Discovery configuration check&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d79b00;strokeWidth=2;fillColor=#ffcd28;fontSize=13;gradientColor=#ffa500;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
-          <mxGeometry x="370" y="300" width="110" height="40" as="geometry" />
+          <mxGeometry x="350" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1siICeFJhea12dSi_VnX-8" value="X-Pack feature check" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;strokeWidth=2;fillColor=#ffcc99;fontSize=13;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
+          <mxGeometry x="110" y="370" width="490" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1siICeFJhea12dSi_VnX-9" value="watcher encryption key" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;strokeWidth=2;fillColor=#cce5ff;fontSize=13;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
+          <mxGeometry x="130" y="390" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1siICeFJhea12dSi_VnX-10" value="TLS check if PKI realm used" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;strokeWidth=2;fillColor=#cce5ff;fontSize=13;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
+          <mxGeometry x="130" y="445" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1siICeFJhea12dSi_VnX-11" value="role mapping validation whn other than file or native realm used for authentication" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;strokeWidth=2;fillColor=#cce5ff;fontSize=13;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
+          <mxGeometry x="260" y="390" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1siICeFJhea12dSi_VnX-12" value="SSL/TLS check for inter node communication in multi-node cluster" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;strokeWidth=2;fillColor=#cce5ff;fontSize=13;" vertex="1" parent="s5fDddgZY08a006xAAcH-1">
+          <mxGeometry x="130" y="500" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
