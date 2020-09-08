@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-04T14:10:54.118Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="FKiBBH3GM58jBRN8jH72" version="13.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-08T12:16:59.402Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="f_ONiMLO-bIhAa23k8QC" version="13.6.6" type="github" pages="5">
   <diagram id="j72Xnj10WM932s8HH8wv" name="Index APIs">
-    <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="ufx_dMuMr3SozEI2xzSS-1" value="stats API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="230" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ufx_dMuMr3SozEI2xzSS-2" value="Flush API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -123,6 +126,17 @@
         </mxCell>
         <mxCell id="iTIoUTofS7m0tCosZ8Ee-8" value="cache APIs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iTIoUTofS7m0tCosZ8Ee-1">
           <mxGeometry x="310" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MVyLUS3BW4zBxGo-ryXv" name="Machine Learning">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="kEYyhPgMnqGM2jJ473yD-0" />
+        <mxCell id="kEYyhPgMnqGM2jJ473yD-1" parent="kEYyhPgMnqGM2jJ473yD-0" />
+        <mxCell id="IM0205nb0m5qfnqzL5SB-0" value="ml API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="kEYyhPgMnqGM2jJ473yD-1">
+          <mxGeometry x="300" y="210" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
