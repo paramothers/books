@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-08T11:56:28.980Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="KiVZa-Ke-W7Zn5djU_oL" version="13.6.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-09-08T12:26:39.751Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="2Avmzg-_Cg9VERF_DxLm" version="13.6.6" type="github" pages="9">
   <diagram id="wDG5H0-7p6YG-bDGUhvO" name="SET up">
     <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -389,8 +389,11 @@
         <mxCell id="CRJCEfw5HLWcTQn2cQUY-23" value="&lt;font style=&quot;font-size: 12px ; background-color: rgb(255 , 255 , 255)&quot;&gt;data&lt;br&gt;&lt;br&gt;( path.data )&amp;nbsp;&lt;/font&gt;" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=#FF96C0;strokeColor=#000000;strokeWidth=1;fontSize=8;" vertex="1" parent="Ugl7BQKOG8BAdIkcvLxV-1">
           <mxGeometry x="220" y="320" width="80" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="HlArjCiJ7z73CiwT99_C-0" value="voting exclustion list, &lt;font color=&quot;#1f1f1f&quot;&gt;for scaling down cluster&lt;/font&gt;&amp;nbsp;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;fontColor=#FF0000;strokeColor=#000000;" vertex="1" parent="Ugl7BQKOG8BAdIkcvLxV-1">
-          <mxGeometry x="660" y="461" width="100" height="69" as="geometry" />
+        <mxCell id="HlArjCiJ7z73CiwT99_C-0" value="voting exclustion list, &lt;font color=&quot;#1f1f1f&quot;&gt;for s&lt;b&gt;caling down cluster&lt;/b&gt;&lt;/font&gt;&amp;nbsp;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;fontColor=#FF0000;strokeColor=#000000;" vertex="1" parent="Ugl7BQKOG8BAdIkcvLxV-1">
+          <mxGeometry x="570" y="330" width="190" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HlArjCiJ7z73CiwT99_C-1" value="&lt;b&gt;&lt;u&gt;Full Cluster Restart&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;br&gt;1.&amp;nbsp; Disable shard allocation by API&lt;br&gt;2.&amp;nbsp; &amp;nbsp;Stop Indexing and flust by API&lt;br&gt;3. Disable machine learning job by API&lt;br&gt;4. Shutdown all nodes by API&lt;br&gt;....&lt;br&gt;8. Re enable allocation by API" style="text;html=1;fillColor=#cce5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;strokeColor=#36393d;" vertex="1" parent="Ugl7BQKOG8BAdIkcvLxV-1">
+          <mxGeometry x="570" y="414" width="250" height="156" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
