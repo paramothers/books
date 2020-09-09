@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-09T12:39:39.420Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="brfFdqcrtQz6ZY-n4rYS" version="13.6.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-09-09T12:46:55.841Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="-PkQBMl4g19m_CMYhjNt" version="13.6.6" type="github" pages="9">
   <diagram id="YEvQqRV3Q-EkDs913GGv" name="ES-General">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,13 +87,13 @@
       <root>
         <mxCell id="CttpTLXTCjKkQBQxLJZP-0" />
         <mxCell id="CttpTLXTCjKkQBQxLJZP-1" parent="CttpTLXTCjKkQBQxLJZP-0" />
-        <mxCell id="8F7jvduDIq8-ywdr1zfU-18" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#8C19FF;" vertex="1" parent="CttpTLXTCjKkQBQxLJZP-1">
+        <mxCell id="8F7jvduDIq8-ywdr1zfU-18" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#10739e;fillColor=#b1ddf0;" vertex="1" parent="CttpTLXTCjKkQBQxLJZP-1">
           <mxGeometry x="70" y="670" width="230" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="8F7jvduDIq8-ywdr1zfU-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#FF230A;" vertex="1" parent="CttpTLXTCjKkQBQxLJZP-1">
+        <mxCell id="8F7jvduDIq8-ywdr1zfU-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#56517e;fillColor=#d0cee2;" vertex="1" parent="CttpTLXTCjKkQBQxLJZP-1">
           <mxGeometry x="329" y="670" width="170" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="8F7jvduDIq8-ywdr1zfU-0" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#B3FF66;" vertex="1" parent="CttpTLXTCjKkQBQxLJZP-1">
+        <mxCell id="8F7jvduDIq8-ywdr1zfU-0" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="CttpTLXTCjKkQBQxLJZP-1">
           <mxGeometry x="70" y="370" width="270" height="270" as="geometry" />
         </mxCell>
         <mxCell id="CttpTLXTCjKkQBQxLJZP-2" value="elasticsearch" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=2;fontSize=13;align=center;gradientColor=#b3b3b3;fillColor=#f5f5f5;" parent="CttpTLXTCjKkQBQxLJZP-1" vertex="1">
@@ -138,7 +138,7 @@
           <mxGeometry x="30" y="170" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x_E-SpRpEhWMAMSNqfBL-1" value="elasticsearch-saml-metadata" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=2;fontSize=13;align=center;gradientColor=#ea6b66;fillColor=#f8cecc;" vertex="1" parent="CttpTLXTCjKkQBQxLJZP-1">
-          <mxGeometry x="610" y="220" width="170" height="60" as="geometry" />
+          <mxGeometry x="479" y="480" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x_E-SpRpEhWMAMSNqfBL-2" value="elasticsearch-shard" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=2;fontSize=13;align=center;gradientColor=#ea6b66;fillColor=#f8cecc;" vertex="1" parent="CttpTLXTCjKkQBQxLJZP-1">
           <mxGeometry x="470" y="150" width="120" height="60" as="geometry" />
@@ -185,7 +185,7 @@
         <mxCell id="8F7jvduDIq8-ywdr1zfU-2" value="the same user has to run of elasticsearch" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;strokeColor=#000000;" vertex="1" parent="CttpTLXTCjKkQBQxLJZP-1">
           <mxGeometry x="349" y="785" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8F7jvduDIq8-ywdr1zfU-6" value="node&#39;s role change" style="text;html=1;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;strokeColor=#82b366;" vertex="1" parent="CttpTLXTCjKkQBQxLJZP-1">
+        <mxCell id="8F7jvduDIq8-ywdr1zfU-6" value="node&#39;s role change" style="text;html=1;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="CttpTLXTCjKkQBQxLJZP-1">
           <mxGeometry x="80" y="690" width="55" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8F7jvduDIq8-ywdr1zfU-7" value="remove settings" style="text;html=1;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;strokeColor=#6c8ebf;" vertex="1" parent="CttpTLXTCjKkQBQxLJZP-1">
