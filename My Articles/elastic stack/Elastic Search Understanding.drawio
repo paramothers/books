@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-09T14:21:55.023Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="0Pa_xnQHJKN8WnqME8St" version="13.6.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-09-09T14:23:02.954Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="BAnvXZmlZY6JJx1ERWYQ" version="13.6.6" type="github" pages="9">
   <diagram id="YEvQqRV3Q-EkDs913GGv" name="ES-General">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
         <mxCell id="EzzEQg21D30T7JtYEY2l-1" value="log4j2 used for logging" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.08333333333333333;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="310" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EzzEQg21D30T7JtYEY2l-2" value="Programming &lt;br&gt;client&amp;nbsp;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="EzzEQg21D30T7JtYEY2l-2" value="Programming &lt;br&gt;client to interact with ES" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="175" y="380" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eYxQthOKgEq_h0jDLSHv-1" value="Open source product" style="shape=dataStorage;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -78,6 +78,9 @@
         </mxCell>
         <mxCell id="eYCW_FyhVbrqtbJPV5J4-4" value="Machine Learning" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.augmented_ai;" vertex="1" parent="1">
           <mxGeometry x="600" y="250" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="sEQizAKhIgita9XQZ9ns-1" value="Rich set of command line tool" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="305" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
