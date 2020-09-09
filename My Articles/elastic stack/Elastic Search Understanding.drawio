@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-09T13:48:20.852Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="hm-hHFQ_5uxOPnuxzXZw" version="13.6.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-09-09T13:49:48.796Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="Uu9gUzwqxFUoXM6myCHF" version="13.6.6" type="github" pages="9">
   <diagram id="YEvQqRV3Q-EkDs913GGv" name="ES-General">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,7 +135,7 @@
           <mxGeometry x="120" y="480" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gKMRaZ-2ttk4FuzbPqkM-0" value="elasticsearch-setup-passwords" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=2;fontSize=13;align=center;gradientColor=#ea6b66;fillColor=#f8cecc;" parent="CttpTLXTCjKkQBQxLJZP-1" vertex="1">
-          <mxGeometry x="470" y="370" width="310" height="60" as="geometry" />
+          <mxGeometry x="470" y="400" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="umlrqctT4xf7wnN48z3S-0" value="elasticsearch-plugin" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;strokeWidth=2;fontSize=13;align=center;gradientColor=#ffa500;fillColor=#ffcd28;" parent="CttpTLXTCjKkQBQxLJZP-1" vertex="1">
           <mxGeometry x="30" y="170" width="170" height="60" as="geometry" />
