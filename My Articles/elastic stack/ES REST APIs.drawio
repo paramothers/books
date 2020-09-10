@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-09T14:03:08.634Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="78cpZIFSbNurrkdDJlKg" version="13.6.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-09-10T06:02:49.307Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="uJatekSxaBOsj4Cymyb7" version="13.6.6" type="github" pages="5">
   <diagram id="j72Xnj10WM932s8HH8wv" name="Index APIs">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -107,7 +107,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="pl2LEaqMLYbfWTKUnEW7" name="others">
+  <diagram id="pl2LEaqMLYbfWTKUnEW7" name="Administration Related">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="iTIoUTofS7m0tCosZ8Ee-0" />
