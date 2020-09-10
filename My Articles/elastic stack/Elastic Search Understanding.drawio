@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-10T06:04:03.395Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="05madwNpr2YQ7hJ6X79B" version="13.6.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2020-09-10T06:06:52.918Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="MKolrxK9BsVJboUynybn" version="13.6.6" type="github" pages="10">
   <diagram id="YEvQqRV3Q-EkDs913GGv" name="ES-General">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -765,11 +765,17 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="djZayYrJT8a7ovmFSldk" name="High Availability">
+  <diagram id="djZayYrJT8a7ovmFSldk" name="High AVAILABILITY">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="QbCHVpVaYXBmhzwoNrSZ-0" />
         <mxCell id="QbCHVpVaYXBmhzwoNrSZ-1" parent="QbCHVpVaYXBmhzwoNrSZ-0" />
+        <mxCell id="QbCHVpVaYXBmhzwoNrSZ-2" value="resilience design" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=3;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="QbCHVpVaYXBmhzwoNrSZ-1">
+          <mxGeometry x="140" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbCHVpVaYXBmhzwoNrSZ-3" value="cross cluster replication" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#996185;strokeWidth=3;fillColor=#e6d0de;gradientColor=#d5739d;" vertex="1" parent="QbCHVpVaYXBmhzwoNrSZ-1">
+          <mxGeometry x="290" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
