@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T07:12:20.707Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="P0ffeCVfLsBJKwHAt8Ag" version="13.6.6" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2020-09-11T11:51:42.227Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="LA-z0nXbFGFg-gosRTfb" version="13.6.9" type="github" pages="11">
   <diagram id="wDG5H0-7p6YG-bDGUhvO" name="SET up">
-    <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -896,45 +896,45 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hTRxTMhnxFj2oc3riC_w" name="Monitor ES cluster">
-    <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="hcu4p4eLrTgGIlGjREbr-0" />
         <mxCell id="hcu4p4eLrTgGIlGjREbr-1" parent="hcu4p4eLrTgGIlGjREbr-0" />
-        <mxCell id="hcu4p4eLrTgGIlGjREbr-2" value="Production ElasticSearch Cluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hcu4p4eLrTgGIlGjREbr-1">
-          <mxGeometry x="80" y="70" width="390" height="60" as="geometry" />
+        <mxCell id="hcu4p4eLrTgGIlGjREbr-2" value="Production ElasticSearch Cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="hcu4p4eLrTgGIlGjREbr-1" vertex="1">
+          <mxGeometry x="110" y="60" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hcu4p4eLrTgGIlGjREbr-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.129;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hcu4p4eLrTgGIlGjREbr-1" source="hcu4p4eLrTgGIlGjREbr-4" target="hcu4p4eLrTgGIlGjREbr-2">
+        <mxCell id="hcu4p4eLrTgGIlGjREbr-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="hcu4p4eLrTgGIlGjREbr-1" source="hcu4p4eLrTgGIlGjREbr-4" target="hcu4p4eLrTgGIlGjREbr-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hcu4p4eLrTgGIlGjREbr-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="hcu4p4eLrTgGIlGjREbr-1" source="hcu4p4eLrTgGIlGjREbr-4" target="hcu4p4eLrTgGIlGjREbr-6">
+        <mxCell id="hcu4p4eLrTgGIlGjREbr-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" parent="hcu4p4eLrTgGIlGjREbr-1" source="hcu4p4eLrTgGIlGjREbr-4" target="hcu4p4eLrTgGIlGjREbr-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hcu4p4eLrTgGIlGjREbr-4" value="logs of ES&lt;br&gt;&amp;nbsp;using filebeat" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="hcu4p4eLrTgGIlGjREbr-1">
-          <mxGeometry x="70" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="hcu4p4eLrTgGIlGjREbr-4" value="logs of ES&lt;br&gt;&amp;nbsp;using filebeat" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="hcu4p4eLrTgGIlGjREbr-1" vertex="1">
+          <mxGeometry x="150" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hcu4p4eLrTgGIlGjREbr-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hcu4p4eLrTgGIlGjREbr-1" source="hcu4p4eLrTgGIlGjREbr-6" target="hcu4p4eLrTgGIlGjREbr-8">
+        <mxCell id="hcu4p4eLrTgGIlGjREbr-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="hcu4p4eLrTgGIlGjREbr-1" source="hcu4p4eLrTgGIlGjREbr-6" target="hcu4p4eLrTgGIlGjREbr-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hcu4p4eLrTgGIlGjREbr-6" value="&lt;b&gt;separate&lt;/b&gt; single/2 node &lt;br&gt;(monitoring) cluster" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="hcu4p4eLrTgGIlGjREbr-1">
+        <mxCell id="hcu4p4eLrTgGIlGjREbr-6" value="&lt;b&gt;separate&lt;/b&gt; single/2 node &lt;br&gt;(monitoring) cluster" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;" parent="hcu4p4eLrTgGIlGjREbr-1" vertex="1">
           <mxGeometry x="295" y="260" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hcu4p4eLrTgGIlGjREbr-8" value="&lt;b&gt;separate&lt;/b&gt; &lt;br&gt;Kibana" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="hcu4p4eLrTgGIlGjREbr-1">
+        <mxCell id="hcu4p4eLrTgGIlGjREbr-8" value="&lt;b&gt;separate&lt;/b&gt; &lt;br&gt;Kibana&#39;s &lt;b&gt;Stack Monitoring&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="hcu4p4eLrTgGIlGjREbr-1" vertex="1">
           <mxGeometry x="350" y="400" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hcu4p4eLrTgGIlGjREbr-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=130;entryDy=10;entryPerimeter=0;" edge="1" parent="hcu4p4eLrTgGIlGjREbr-1" source="hcu4p4eLrTgGIlGjREbr-10" target="hcu4p4eLrTgGIlGjREbr-6">
+        <mxCell id="hcu4p4eLrTgGIlGjREbr-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=130;entryDy=10;entryPerimeter=0;" parent="hcu4p4eLrTgGIlGjREbr-1" source="hcu4p4eLrTgGIlGjREbr-10" target="hcu4p4eLrTgGIlGjREbr-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hcu4p4eLrTgGIlGjREbr-10" value="use metricbeat" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="hcu4p4eLrTgGIlGjREbr-1">
-          <mxGeometry x="490" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="hcu4p4eLrTgGIlGjREbr-10" value="use metricbeat" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="hcu4p4eLrTgGIlGjREbr-1" vertex="1">
+          <mxGeometry x="410" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hcu4p4eLrTgGIlGjREbr-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hcu4p4eLrTgGIlGjREbr-1" source="hcu4p4eLrTgGIlGjREbr-12" target="hcu4p4eLrTgGIlGjREbr-10">
+        <mxCell id="hcu4p4eLrTgGIlGjREbr-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="hcu4p4eLrTgGIlGjREbr-1" source="hcu4p4eLrTgGIlGjREbr-12" target="hcu4p4eLrTgGIlGjREbr-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hcu4p4eLrTgGIlGjREbr-12" value="ES, Kibana, Beats and Logstash" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hcu4p4eLrTgGIlGjREbr-1">
-          <mxGeometry x="520" y="30" width="120" height="80" as="geometry" />
+        <mxCell id="hcu4p4eLrTgGIlGjREbr-12" value="ES, Kibana, Beats and Logstash" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="hcu4p4eLrTgGIlGjREbr-1" vertex="1">
+          <mxGeometry x="410" y="50" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hcu4p4eLrTgGIlGjREbr-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.elastic.co/guide/en/elasticsearch/reference/master/images/architecture.png;" vertex="1" parent="hcu4p4eLrTgGIlGjREbr-1">
-          <mxGeometry x="110" y="630" width="450.5" height="350" as="geometry" />
+        <mxCell id="hcu4p4eLrTgGIlGjREbr-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.elastic.co/guide/en/elasticsearch/reference/master/images/architecture.png;" parent="hcu4p4eLrTgGIlGjREbr-1" vertex="1">
+          <mxGeometry x="150" y="536.69" width="519.11" height="403.31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
