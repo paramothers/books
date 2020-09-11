@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T14:12:14.221Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="UfOWSPwk8ECU69MCDfme" version="13.6.9" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2020-09-11T15:06:36.890Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="Fx-dPe-AGxlMQhXxcYoa" version="13.6.9" type="github" pages="12">
   <diagram id="wDG5H0-7p6YG-bDGUhvO" name="SET up">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -976,6 +976,30 @@
         </mxCell>
         <mxCell id="MSqrLhqQhR_4yetF-JMV-13" value="&lt;span&gt;use cross-cluster, at least two cluster for better search Pefromance&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="MSqrLhqQhR_4yetF-JMV-1">
           <mxGeometry x="470" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqrLhqQhR_4yetF-JMV-14" value="&lt;b&gt;&lt;u&gt;Disable not using feature&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;1. Disaable indexing for any fields that are not filtered on&lt;br&gt;2. Disable normalization on text field, if no need score of document&lt;br&gt;3. Disable frequences and position on text field, if not used phrase query&lt;br&gt;4. Dont use default dynamic mapping for stirng fields&lt;br&gt;5. Disable _source, if update and reindex may not&amp;nbsp; need" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="MSqrLhqQhR_4yetF-JMV-1">
+          <mxGeometry x="80" y="375" width="490" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqrLhqQhR_4yetF-JMV-15" value="&lt;span&gt;use best_compression codec for compress _source fileld&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="MSqrLhqQhR_4yetF-JMV-1">
+          <mxGeometry x="690" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqrLhqQhR_4yetF-JMV-16" value="&lt;span&gt;reduce, no. of shard of a index, if need by _shrink API, you can also use ILM&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="MSqrLhqQhR_4yetF-JMV-1">
+          <mxGeometry x="700" y="200" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqrLhqQhR_4yetF-JMV-17" value="use smallest numeric data type if the data is not big&amp;nbsp;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;" vertex="1" parent="MSqrLhqQhR_4yetF-JMV-1">
+          <mxGeometry x="740" y="295" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqrLhqQhR_4yetF-JMV-18" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Use&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(33 , 37 , 41) ; font-family: &amp;#34;inter&amp;#34; ; text-align: left&quot;&gt;&amp;nbsp;index sorting to colocate similar documents&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MSqrLhqQhR_4yetF-JMV-1">
+          <mxGeometry x="660" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqrLhqQhR_4yetF-JMV-19" value="&lt;span&gt;rollup historical data&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="MSqrLhqQhR_4yetF-JMV-1">
+          <mxGeometry x="610" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqrLhqQhR_4yetF-JMV-20" value="creating larger shards by using index pattern spanning longer time rather than creating index daily" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="MSqrLhqQhR_4yetF-JMV-1">
+          <mxGeometry x="590" y="402.5" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MSqrLhqQhR_4yetF-JMV-21" value="creating new index with few shard from existing many-shard index, by reindexing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="MSqrLhqQhR_4yetF-JMV-1">
+          <mxGeometry x="90" y="510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
