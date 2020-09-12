@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-12T15:52:38.439Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="DPt6cQB4WN85eSGKfOoT" version="13.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-12T16:22:03.262Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="XAapA-CNn8ELcx_G0Gxy" version="13.6.9" type="github" pages="6">
   <diagram id="tfZ93nX_alvxLIhOHWBI" name="Index Store types">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -134,7 +134,7 @@
       <root>
         <mxCell id="S_XbcOjaB8UuVUyk9erW-0" />
         <mxCell id="S_XbcOjaB8UuVUyk9erW-1" parent="S_XbcOjaB8UuVUyk9erW-0" />
-        <mxCell id="S_XbcOjaB8UuVUyk9erW-2" value="It create or backup of index based on one or more criteria/rule" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="S_XbcOjaB8UuVUyk9erW-1">
+        <mxCell id="S_XbcOjaB8UuVUyk9erW-2" value="it create or delete indices based on some critera automatically" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="S_XbcOjaB8UuVUyk9erW-1">
           <mxGeometry x="90" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S_XbcOjaB8UuVUyk9erW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="S_XbcOjaB8UuVUyk9erW-1" source="S_XbcOjaB8UuVUyk9erW-3" target="S_XbcOjaB8UuVUyk9erW-7">
@@ -164,6 +164,28 @@
         <mxCell id="S_XbcOjaB8UuVUyk9erW-7" value="delete" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S_XbcOjaB8UuVUyk9erW-1">
           <mxGeometry x="480" y="145" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="S_XbcOjaB8UuVUyk9erW-12" value="ILM policy" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="S_XbcOjaB8UuVUyk9erW-1">
+          <mxGeometry x="600" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S_XbcOjaB8UuVUyk9erW-13" value="ILM can be &lt;br&gt;managed by &lt;br&gt;Kibana UI&lt;br&gt;&amp;nbsp;or ILM API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="S_XbcOjaB8UuVUyk9erW-1">
+          <mxGeometry x="90" y="185" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kESMOPwstl8-Fts4B-YW" name="Snopshot lifecyle policies">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="COBbNOuOWGp9jwz7UP_d-0" />
+        <mxCell id="COBbNOuOWGp9jwz7UP_d-1" parent="COBbNOuOWGp9jwz7UP_d-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xY0iZapzS3HgVFoKjjKv" name="Forzen index">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="rOjSGpcUXaX1ujTrqfsO-0" />
+        <mxCell id="rOjSGpcUXaX1ujTrqfsO-1" parent="rOjSGpcUXaX1ujTrqfsO-0" />
       </root>
     </mxGraphModel>
   </diagram>
