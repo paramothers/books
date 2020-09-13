@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-13T16:14:05.348Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="46jc_0whnDDl4KD6ouyw" version="13.6.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-09-13T16:16:38.095Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="xva4xJHyPmhgIi-ve72s" version="13.6.9" type="github" pages="6">
   <diagram id="tfZ93nX_alvxLIhOHWBI" name="Index Store types">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -54,16 +54,16 @@
         <mxCell id="8ntKJDXSNkb_pooY5m4X-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="8ntKJDXSNkb_pooY5m4X-1" target="8ntKJDXSNkb_pooY5m4X-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8ntKJDXSNkb_pooY5m4X-1" value="Rollover" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="8ntKJDXSNkb_pooY5m4X-1" value="&lt;u&gt;&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;Rollover&lt;/font&gt;&lt;/b&gt;&lt;/u&gt;&lt;br&gt;Usually, need for time series data" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="120" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8ntKJDXSNkb_pooY5m4X-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endArrow=none;endFill=0;shape=link;" edge="1" parent="1" source="8ntKJDXSNkb_pooY5m4X-2" target="8ntKJDXSNkb_pooY5m4X-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8ntKJDXSNkb_pooY5m4X-2" value="Rollup" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="8ntKJDXSNkb_pooY5m4X-2" value="&lt;b&gt;&lt;u&gt;&lt;font color=&quot;#ff3333&quot;&gt;Rollup&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Create summaraise of index old data to save resource" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="300" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8ntKJDXSNkb_pooY5m4X-3" value="Snapshot" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="8ntKJDXSNkb_pooY5m4X-3" value="&lt;b&gt;&lt;u&gt;&lt;font color=&quot;#66b2ff&quot;&gt;Snapshot&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;br&gt;Take incremental backup of index into a repository" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="490" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
