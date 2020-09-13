@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-12T15:50:21.370Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="Ot5yyBNcPeImtefLEVon" version="13.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-13T17:19:28.076Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="352xw8vHe_R0Nkx7AG1G" version="13.6.9" type="github" pages="4">
   <diagram id="YEvQqRV3Q-EkDs913GGv" name="ES-General">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,8 +31,11 @@
         <mxCell id="U-YSyF3Llmr4mpiTvXlg-1" value="Frozen Indices" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="310" y="100" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U-YSyF3Llmr4mpiTvXlg-2" value="Data Stream on time series data" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="175" y="240" width="110" height="50" as="geometry" />
+        <mxCell id="6eVwfd6qoTZ3y2R8Ltrh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;strokeWidth=3;" edge="1" parent="1" source="U-YSyF3Llmr4mpiTvXlg-2" target="6Kp2OiG-xyMWNulLzKX1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U-YSyF3Llmr4mpiTvXlg-2" value="&lt;b&gt;&lt;u&gt;Data Stream&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&amp;nbsp;on time &lt;br&gt;series data, when &lt;br&gt;append-only data" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="330" y="460" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="HMalBnWpGvnVDegUVYhX-1" value="Scripting" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="175" y="180" width="100" height="40" as="geometry" />
@@ -49,8 +52,8 @@
         <mxCell id="N39oQWJKqt8c7xy-6I-s-1" value="Follower Indices" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="440" y="100" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6Kp2OiG-xyMWNulLzKX1-1" value="Alias for indices and data stream" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="175" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="6Kp2OiG-xyMWNulLzKX1-1" value="&lt;b&gt;&lt;u&gt;Alias&lt;/u&gt;&lt;/b&gt; &lt;br&gt;for indices when updates are required for time-series data" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="530" y="460" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6Kp2OiG-xyMWNulLzKX1-2" value="filter ( like view in DBs)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="440" y="160" width="120" height="60" as="geometry" />
@@ -83,7 +86,7 @@
           <mxGeometry x="305" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1NwJdSEiIiIemxPvt6t3-1" value="Cross cluster for High AVAibliity" style="shape=card;whiteSpace=wrap;html=1;strokeColor=#8C19FF;strokeWidth=3;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="470" y="375" width="160" height="60" as="geometry" />
+          <mxGeometry x="460" y="370" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XQPwIS20ny4Jn8raNQbQ-1" value="ES is Distrubuted System" style="shape=card;whiteSpace=wrap;html=1;strokeColor=#8C19FF;strokeWidth=3;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="690" y="210" width="160" height="60" as="geometry" />
