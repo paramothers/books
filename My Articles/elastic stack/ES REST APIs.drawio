@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-13T17:17:28.539Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="_iK9UcCpQIkzySXjoPQf" version="13.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-13T17:18:24.891Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="IRpnDlAJD9_8Dn4Dwfu3" version="13.6.9" type="github" pages="4">
   <diagram id="j72Xnj10WM932s8HH8wv" name="Index APIs">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,9 +46,6 @@
         <mxCell id="ufx_dMuMr3SozEI2xzSS-1" value="stats API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="150" y="120" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ufx_dMuMr3SozEI2xzSS-2" value="Flush API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="280" y="120" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Z4X5owtk00YWoW0H9cgC-1" value="_search API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="680" y="280" width="120" height="30" as="geometry" />
         </mxCell>
@@ -94,9 +91,6 @@
         <mxCell id="zfEogaYEoA-rQ7iWvFz5-17" value="_split API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="365" y="440" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zfEogaYEoA-rQ7iWvFz5-19" value="_ilm API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="150" y="80" width="120" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -118,7 +112,7 @@
           <mxGeometry x="150" y="120" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="34i2qMoWkIUe7me7IcQO-6" value="Usage API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="34i2qMoWkIUe7me7IcQO-1" vertex="1">
-          <mxGeometry x="40" y="180" width="120" height="30" as="geometry" />
+          <mxGeometry x="150" y="160" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="34i2qMoWkIUe7me7IcQO-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="34i2qMoWkIUe7me7IcQO-1" source="34i2qMoWkIUe7me7IcQO-8" target="34i2qMoWkIUe7me7IcQO-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -152,6 +146,12 @@
         </mxCell>
         <mxCell id="OBE-C1EP9Q6HCJSyYFmH-6" value="cache APIs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="34i2qMoWkIUe7me7IcQO-1" vertex="1">
           <mxGeometry x="390" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x_2mKOawABYdNPquIh_A-0" value="Flush API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="34i2qMoWkIUe7me7IcQO-1">
+          <mxGeometry x="280" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x_2mKOawABYdNPquIh_A-1" value="_ilm API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="34i2qMoWkIUe7me7IcQO-1">
+          <mxGeometry x="140" y="80" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
