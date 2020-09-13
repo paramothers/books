@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-13T18:28:31.512Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="PyV0E4xUZ-UIB-Nb_TiW" version="13.6.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-09-13T19:04:55.794Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="ZxeCkk_tWPWK-kBc2rLc" version="13.6.9" type="github" pages="6">
   <diagram id="tfZ93nX_alvxLIhOHWBI" name="Index Store types">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         <mxCell id="XulxifYE2ng6Pw_B0u0K-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XulxifYE2ng6Pw_B0u0K-1" source="XulxifYE2ng6Pw_B0u0K-4" target="XulxifYE2ng6Pw_B0u0K-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1Ujpf2gSuoZx9haa7uQI-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;" edge="1" parent="XulxifYE2ng6Pw_B0u0K-1" source="XulxifYE2ng6Pw_B0u0K-4" target="1Ujpf2gSuoZx9haa7uQI-1">
+        <mxCell id="1Ujpf2gSuoZx9haa7uQI-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;startArrow=classic;startFill=1;endArrow=none;endFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="XulxifYE2ng6Pw_B0u0K-1" source="XulxifYE2ng6Pw_B0u0K-4" target="1Ujpf2gSuoZx9haa7uQI-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XulxifYE2ng6Pw_B0u0K-4" value="Index Template" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="XulxifYE2ng6Pw_B0u0K-1">
@@ -97,11 +97,13 @@
         <mxCell id="XulxifYE2ng6Pw_B0u0K-7" value="Mapping, Settings and Aliases" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="XulxifYE2ng6Pw_B0u0K-1">
           <mxGeometry x="440" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XulxifYE2ng6Pw_B0u0K-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="XulxifYE2ng6Pw_B0u0K-1" source="XulxifYE2ng6Pw_B0u0K-9" target="XulxifYE2ng6Pw_B0u0K-4">
+        <mxCell id="XulxifYE2ng6Pw_B0u0K-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="XulxifYE2ng6Pw_B0u0K-1" source="XulxifYE2ng6Pw_B0u0K-9" target="XulxifYE2ng6Pw_B0u0K-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1Ujpf2gSuoZx9haa7uQI-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;dashPattern=1 1;" edge="1" parent="XulxifYE2ng6Pw_B0u0K-1" source="XulxifYE2ng6Pw_B0u0K-9" target="1Ujpf2gSuoZx9haa7uQI-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="1Ujpf2gSuoZx9haa7uQI-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;dashPattern=1 1;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="XulxifYE2ng6Pw_B0u0K-1" source="XulxifYE2ng6Pw_B0u0K-9" target="1Ujpf2gSuoZx9haa7uQI-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="496.01" y="445" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2LNqDx9xGKk-Gb9t4V8Y-3" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="XulxifYE2ng6Pw_B0u0K-1" source="XulxifYE2ng6Pw_B0u0K-9" target="2LNqDx9xGKk-Gb9t4V8Y-1">
           <mxGeometry relative="1" as="geometry" />
@@ -110,22 +112,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XulxifYE2ng6Pw_B0u0K-9" value="Index" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="XulxifYE2ng6Pw_B0u0K-1">
-          <mxGeometry x="275" y="340" width="110" height="50" as="geometry" />
+          <mxGeometry x="273.99" y="455" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XulxifYE2ng6Pw_B0u0K-10" value="Mapping, Settings and Aliases" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="XulxifYE2ng6Pw_B0u0K-1">
           <mxGeometry x="440" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1Ujpf2gSuoZx9haa7uQI-1" value="ILM" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XulxifYE2ng6Pw_B0u0K-1">
-          <mxGeometry x="440" y="310" width="90" height="70" as="geometry" />
+        <mxCell id="1Ujpf2gSuoZx9haa7uQI-1" value="ILM. &lt;br&gt;All rollover policy must apply by index template not manually" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XulxifYE2ng6Pw_B0u0K-1">
+          <mxGeometry x="450" y="350" width="133.99" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2LNqDx9xGKk-Gb9t4V8Y-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;strokeWidth=3;" edge="1" parent="XulxifYE2ng6Pw_B0u0K-1" source="2LNqDx9xGKk-Gb9t4V8Y-1" target="2LNqDx9xGKk-Gb9t4V8Y-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2LNqDx9xGKk-Gb9t4V8Y-1" value="&lt;b&gt;&lt;u&gt;Data Stream&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&amp;nbsp;for time &lt;br&gt;series data, when &lt;br&gt;append-only data" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="XulxifYE2ng6Pw_B0u0K-1">
-          <mxGeometry x="165" y="450" width="130" height="90" as="geometry" />
+          <mxGeometry x="163.99" y="565" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2LNqDx9xGKk-Gb9t4V8Y-2" value="&lt;b&gt;&lt;u&gt;Alias&lt;/u&gt;&lt;/b&gt; &lt;br&gt;for indices when updates are required for time-series data" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XulxifYE2ng6Pw_B0u0K-1">
-          <mxGeometry x="365" y="450" width="130" height="90" as="geometry" />
+          <mxGeometry x="363.99" y="565" width="130" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -235,8 +237,8 @@
         <mxCell id="S_XbcOjaB8UuVUyk9erW-7" value="forzen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="S_XbcOjaB8UuVUyk9erW-1">
           <mxGeometry x="380" y="345" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S_XbcOjaB8UuVUyk9erW-12" value="ILM policy" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="S_XbcOjaB8UuVUyk9erW-1">
-          <mxGeometry x="200" y="40" width="80" height="80" as="geometry" />
+        <mxCell id="S_XbcOjaB8UuVUyk9erW-12" value="ILM policy are stored in global cluster state" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="S_XbcOjaB8UuVUyk9erW-1">
+          <mxGeometry x="160" y="40" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="S_XbcOjaB8UuVUyk9erW-13" value="ILM can be &lt;br&gt;managed by &lt;br&gt;Kibana UI&lt;br&gt;&amp;nbsp;or ILM API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="S_XbcOjaB8UuVUyk9erW-1">
           <mxGeometry x="30" y="40" width="120" height="80" as="geometry" />
@@ -259,8 +261,11 @@
         <mxCell id="L06pSJca5zC6XnMZarSs-6" value="Set Priority&lt;br&gt;Unfollow&lt;br&gt;Allocate&lt;br&gt;Freeze&lt;br&gt;Searchable snapshot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="S_XbcOjaB8UuVUyk9erW-1">
           <mxGeometry x="500" y="310" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="L06pSJca5zC6XnMZarSs-8" value="Wait for snapshot&lt;br&gt;Delete" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="S_XbcOjaB8UuVUyk9erW-1">
-          <mxGeometry x="285" y="180" width="120" height="55" as="geometry" />
+        <mxCell id="L06pSJca5zC6XnMZarSs-8" value="Wait for snapshot ( SLM )&lt;br&gt;Delete" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="S_XbcOjaB8UuVUyk9erW-1">
+          <mxGeometry x="267.5" y="180" width="155" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NFLQoz8nrWT4Codgfe5s-0" value="ILM can be&lt;br&gt;&amp;nbsp;applied to new or existing indices" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="S_XbcOjaB8UuVUyk9erW-1">
+          <mxGeometry x="260" y="40" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
