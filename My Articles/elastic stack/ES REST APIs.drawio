@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-13T18:57:48.997Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="G4u8yDZiqcCT2hePB_zB" version="13.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-14T10:34:57.856Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="t_nHivsGAoROzTY1fxsa" version="13.6.9" type="github" pages="4">
   <diagram id="j72Xnj10WM932s8HH8wv" name="Index APIs">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
         <mxCell id="zfEogaYEoA-rQ7iWvFz5-9" value="_split API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="680" y="440" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zfEogaYEoA-rQ7iWvFz5-11" value="_search API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="zfEogaYEoA-rQ7iWvFz5-11" value="_settings API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="365" y="280" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zfEogaYEoA-rQ7iWvFz5-12" value="preference API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
