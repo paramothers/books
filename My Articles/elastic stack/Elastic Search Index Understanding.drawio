@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-14T09:19:44.879Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="QcFC6JFpJec0bT2MwUws" version="13.6.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-09-14T09:47:29.055Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="k4LRDmlYP1HxcwhSFg6p" version="13.6.9" type="github" pages="8">
   <diagram id="kpbK688YECSVvcqLZjEM" name="Index Modules">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -298,7 +298,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7e-h-Bvp__2NW2hO7ycV" name="Index Module">
-    <mxGraphModel dx="868" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="NjvsflcmCaf9yafcn-h6-0" />
         <mxCell id="NjvsflcmCaf9yafcn-h6-1" parent="NjvsflcmCaf9yafcn-h6-0" />
@@ -309,10 +309,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NjvsflcmCaf9yafcn-h6-2" value="Index moudule are created per index and control all aspect of an index" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="NjvsflcmCaf9yafcn-h6-1">
-          <mxGeometry x="160" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="35" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NjvsflcmCaf9yafcn-h6-3" value="static settings, &lt;br&gt;only on &lt;br&gt;new or closed &lt;br&gt;index" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="NjvsflcmCaf9yafcn-h6-1">
-          <mxGeometry x="90" y="220" width="120" height="70" as="geometry" />
+          <mxGeometry x="20" y="145" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NjvsflcmCaf9yafcn-h6-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="NjvsflcmCaf9yafcn-h6-1" source="NjvsflcmCaf9yafcn-h6-4" target="NjvsflcmCaf9yafcn-h6-7">
           <mxGeometry relative="1" as="geometry" />
@@ -321,13 +321,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NjvsflcmCaf9yafcn-h6-4" value="dynamic settings, &lt;br&gt;using API on live index" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="NjvsflcmCaf9yafcn-h6-1">
-          <mxGeometry x="260" y="220" width="120" height="70" as="geometry" />
+          <mxGeometry x="190" y="145" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NjvsflcmCaf9yafcn-h6-7" value="transient" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="NjvsflcmCaf9yafcn-h6-1">
-          <mxGeometry x="190" y="350" width="120" height="50" as="geometry" />
+          <mxGeometry x="120" y="275" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NjvsflcmCaf9yafcn-h6-8" value="persistent" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="NjvsflcmCaf9yafcn-h6-1">
-          <mxGeometry x="330" y="350" width="120" height="50" as="geometry" />
+          <mxGeometry x="260" y="275" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PubYCxpmOOpdn6p7FMhv-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="NjvsflcmCaf9yafcn-h6-1" source="PubYCxpmOOpdn6p7FMhv-0" target="PubYCxpmOOpdn6p7FMhv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PubYCxpmOOpdn6p7FMhv-0" value="analysis" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="NjvsflcmCaf9yafcn-h6-1">
+          <mxGeometry x="390" y="30" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PubYCxpmOOpdn6p7FMhv-1" value="config analyzer" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="NjvsflcmCaf9yafcn-h6-1">
+          <mxGeometry x="520" y="20" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PubYCxpmOOpdn6p7FMhv-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="NjvsflcmCaf9yafcn-h6-1" source="PubYCxpmOOpdn6p7FMhv-4" target="PubYCxpmOOpdn6p7FMhv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PubYCxpmOOpdn6p7FMhv-4" value="index shard allocation" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="NjvsflcmCaf9yafcn-h6-1">
+          <mxGeometry x="390" y="120" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PubYCxpmOOpdn6p7FMhv-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="NjvsflcmCaf9yafcn-h6-1" source="PubYCxpmOOpdn6p7FMhv-5" target="PubYCxpmOOpdn6p7FMhv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PubYCxpmOOpdn6p7FMhv-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="NjvsflcmCaf9yafcn-h6-1" source="PubYCxpmOOpdn6p7FMhv-5" target="PubYCxpmOOpdn6p7FMhv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PubYCxpmOOpdn6p7FMhv-5" value="config shards per index" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="NjvsflcmCaf9yafcn-h6-1">
+          <mxGeometry x="520" y="110" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PubYCxpmOOpdn6p7FMhv-6" value="index-level shard allocation filterng" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="NjvsflcmCaf9yafcn-h6-1">
+          <mxGeometry x="690" y="35" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="PubYCxpmOOpdn6p7FMhv-8" value="Delaying allocation when a node leave" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="NjvsflcmCaf9yafcn-h6-1">
+          <mxGeometry x="690" y="95" width="120" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
