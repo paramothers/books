@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-15T14:29:29.374Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="uF994Yn4Ggt2WjPY2m07" version="13.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-15T15:23:47.325Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="7FaBA0YXcXf6cNlafWVt" version="13.6.9" type="github" pages="4">
   <diagram id="ivCzKrt9nUP7SNp9OQbt" name="General">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -122,24 +122,42 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V0TEWZ8bJZo03SjNakn-" name="Setup and configuration">
-    <mxGraphModel dx="868" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="z0D2IwGwkJgC5V6PRprM-0" />
         <mxCell id="z0D2IwGwkJgC5V6PRprM-1" parent="z0D2IwGwkJgC5V6PRprM-0" />
-        <mxCell id="z0D2IwGwkJgC5V6PRprM-2" value="directry layout based on way of installation" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=2;fillColor=#cdeb8b;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
-          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="z0D2IwGwkJgC5V6PRprM-2" value="directry layout based on way of installation" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0e8088;strokeWidth=2;fillColor=#b0e3e6;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="170" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z0D2IwGwkJgC5V6PRprM-3" value="keystore to store password" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=2;fillColor=#ffff88;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
-          <mxGeometry x="200" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cByNZWBmdC7Lsl7oo6EN-0" value="auditbeat.yml" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
-          <mxGeometry x="430" y="40" width="110" height="20" as="geometry" />
+        <mxCell id="cByNZWBmdC7Lsl7oo6EN-0" value="auditbeat.yml" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;strokeColor=#FB7DFF;strokeWidth=3;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="320" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-0" value="modules" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b46504;strokeWidth=2;fillColor=#fad7ac;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="170" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-1" value="output" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=2;fillColor=#cdeb8b;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="170" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-2" value="general settings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BD7000;strokeWidth=2;fillColor=#f0a30a;fontColor=#ffffff;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="340" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-3" value="processors" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ae4132;strokeWidth=2;fillColor=#fad9d5;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="340" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-4" value="project path settings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=2;fillColor=#cdeb8b;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="500" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-5" value="reload the configuration dynamically" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#23445d;strokeWidth=2;fillColor=#bac8d3;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="500" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Ma7JhXU65Nl0NRV4E7Gs" name="Modules">
-    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="QNjrsyUzL-WUR0EBJNcA-0" />
         <mxCell id="QNjrsyUzL-WUR0EBJNcA-1" parent="QNjrsyUzL-WUR0EBJNcA-0" />
