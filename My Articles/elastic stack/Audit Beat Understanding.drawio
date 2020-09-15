@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2020-09-15T06:00:46.106Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" version="13.6.9" etag="UNhlp57Lpl9m2fbQuPrF" type="github"><diagram id="ivCzKrt9nUP7SNp9OQbt">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-15T06:10:20.635Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="kJvjRIYHsmgZchyDLhME" version="13.6.9" type="github">
+  <diagram id="ivCzKrt9nUP7SNp9OQbt" name="General">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-1" target="mUWXqhx0YAMYvX9sf31M-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-1" target="mUWXqhx0YAMYvX9sf31M-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-1" target="mUWXqhx0YAMYvX9sf31M-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-1" value="auditd&lt;br&gt;(linux audit daemon )" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="270" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-2" target="mUWXqhx0YAMYvX9sf31M-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-2" value="logs" style="shape=card;whiteSpace=wrap;html=1;size=20;" vertex="1" parent="1">
+          <mxGeometry x="385" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-4" value="AuditBeat" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=25;entryPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-6" target="mUWXqhx0YAMYvX9sf31M-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-6" target="mUWXqhx0YAMYvX9sf31M-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-6" value="Linux - Kernal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-8" value="Socket connections&lt;br&gt;Files operations&lt;br&gt;User activities&lt;br&gt;System calls" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="95" y="180" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-10" value="Linux Audit Framework" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#000000;strokeWidth=2;size=0.041666666666666664;" vertex="1" parent="1">
+          <mxGeometry x="275" y="10" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-12" value="rules" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
