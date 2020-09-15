@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-09-15T06:10:20.635Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="kJvjRIYHsmgZchyDLhME" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-15T07:35:55.938Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="Qv9YMRPDkfQtoEPFqh_L" version="13.6.9" type="github">
   <diagram id="ivCzKrt9nUP7SNp9OQbt" name="General">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mUWXqhx0YAMYvX9sf31M-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-1" target="mUWXqhx0YAMYvX9sf31M-2">
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-1" target="mUWXqhx0YAMYvX9sf31M-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mUWXqhx0YAMYvX9sf31M-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-1" target="mUWXqhx0YAMYvX9sf31M-10">
@@ -13,17 +13,16 @@
         <mxCell id="mUWXqhx0YAMYvX9sf31M-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-1" target="mUWXqhx0YAMYvX9sf31M-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mUWXqhx0YAMYvX9sf31M-1" value="auditd&lt;br&gt;(linux audit daemon )" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-1" value="auditd&lt;br&gt;(linux audit daemon )" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="270" y="90" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mUWXqhx0YAMYvX9sf31M-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-2" target="mUWXqhx0YAMYvX9sf31M-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-2" value="logs, comes out of kernal. Format is define by kernal" style="shape=card;whiteSpace=wrap;html=1;size=20;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="190" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mUWXqhx0YAMYvX9sf31M-2" value="logs" style="shape=card;whiteSpace=wrap;html=1;size=20;" vertex="1" parent="1">
-          <mxGeometry x="385" y="200" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mUWXqhx0YAMYvX9sf31M-4" value="AuditBeat" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="300" width="90" height="40" as="geometry" />
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-27" target="mUWXqhx0YAMYvX9sf31M-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="368.38709677419365" y="328.38709677419354" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mUWXqhx0YAMYvX9sf31M-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=25;entryPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-6" target="mUWXqhx0YAMYvX9sf31M-1">
           <mxGeometry relative="1" as="geometry" />
@@ -31,17 +30,64 @@
         <mxCell id="mUWXqhx0YAMYvX9sf31M-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-6" target="mUWXqhx0YAMYvX9sf31M-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mUWXqhx0YAMYvX9sf31M-6" value="Linux - Kernal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-6" target="mUWXqhx0YAMYvX9sf31M-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="mUWXqhx0YAMYvX9sf31M-8" value="Socket connections&lt;br&gt;Files operations&lt;br&gt;User activities&lt;br&gt;System calls" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="95" y="180" width="150" height="150" as="geometry" />
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-6" value="Linux - Kernal" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="70" y="185" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mUWXqhx0YAMYvX9sf31M-10" value="Linux Audit Framework" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#000000;strokeWidth=2;size=0.041666666666666664;" vertex="1" parent="1">
-          <mxGeometry x="275" y="10" width="120" height="50" as="geometry" />
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-8" value="Socket connections&lt;br&gt;Files operations&lt;br&gt;User activities&lt;br&gt;System calls" style="text;html=1;fillColor=#cdeb8b;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="310" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="mUWXqhx0YAMYvX9sf31M-12" value="rules" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="510" y="50" width="100" height="40" as="geometry" />
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-10" value="Linux Audit Framework" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#d6b656;strokeWidth=2;size=0.041666666666666664;gradientColor=#ffd966;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-12" value="rules / watcher" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#d6b656;strokeWidth=2;gradientColor=#ffd966;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="450" y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-14" target="mUWXqhx0YAMYvX9sf31M-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-14" value="auditctl" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=2;gradientColor=#7ea6e0;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="450" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.746;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-16" target="mUWXqhx0YAMYvX9sf31M-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-16" value="/etc/audit/auditd.conf" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;strokeWidth=2;gradientColor=#ffa500;fillColor=#ffcd28;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=130;entryDy=35;entryPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-18" target="mUWXqhx0YAMYvX9sf31M-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-18" value="ausyscall" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=2;gradientColor=#7ea6e0;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="505" y="160" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=130;entryDy=35;entryPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-20" target="mUWXqhx0YAMYvX9sf31M-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-20" value="ausearch" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=2;gradientColor=#7ea6e0;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="505" y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=130;entryDy=35;entryPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-22" target="mUWXqhx0YAMYvX9sf31M-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-22" value="aureport" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=2;gradientColor=#7ea6e0;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="470" y="80" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-24" value="rules / watcher" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#d6b656;strokeWidth=2;gradientColor=#ffd966;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-27" target="mUWXqhx0YAMYvX9sf31M-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-27" value="AuditBeat&lt;br&gt;(linux audit daemon )" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-29" value="it can be used to monitor Linux/ Windows and OSX" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;strokeWidth=2;gradientColor=#ffa500;fillColor=#ffcd28;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
