@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-15T07:35:55.938Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="Qv9YMRPDkfQtoEPFqh_L" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-15T09:09:05.227Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="V-rgmiYxR7yBOJBEANvW" version="13.6.9" type="github" pages="2">
   <diagram id="ivCzKrt9nUP7SNp9OQbt" name="General">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="mUWXqhx0YAMYvX9sf31M-2" value="logs, comes out of kernal. Format is define by kernal" style="shape=card;whiteSpace=wrap;html=1;size=20;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="267.5" y="190" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mUWXqhx0YAMYvX9sf31M-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-27" target="mUWXqhx0YAMYvX9sf31M-24">
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=125;exitDy=5;exitPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-27" target="mUWXqhx0YAMYvX9sf31M-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="368.38709677419365" y="328.38709677419354" as="sourcePoint" />
           </mxGeometry>
@@ -78,9 +78,15 @@
           <mxGeometry x="470" y="80" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mUWXqhx0YAMYvX9sf31M-24" value="rules / watcher" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#d6b656;strokeWidth=2;gradientColor=#ffd966;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="450" y="280" width="100" height="40" as="geometry" />
+          <mxGeometry x="450" y="250" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mUWXqhx0YAMYvX9sf31M-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-27" target="mUWXqhx0YAMYvX9sf31M-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=55;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-27" target="mUWXqhx0YAMYvX9sf31M-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-27" target="mUWXqhx0YAMYvX9sf31M-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mUWXqhx0YAMYvX9sf31M-27" value="AuditBeat&lt;br&gt;(linux audit daemon )" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -88,6 +94,35 @@
         </mxCell>
         <mxCell id="mUWXqhx0YAMYvX9sf31M-29" value="it can be used to monitor Linux/ Windows and OSX" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;strokeWidth=2;gradientColor=#ffa500;fillColor=#ffcd28;" vertex="1" parent="1">
           <mxGeometry x="440" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-31" target="mUWXqhx0YAMYvX9sf31M-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-31" value="ElasticSearch" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;strokeColor=#6c8ebf;strokeWidth=2;size=10;gradientColor=#7ea6e0;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-32" value="Kibana" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#d6b656;strokeWidth=2;dx=10;dy=10;gradientColor=#ffd966;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="470" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUWXqhx0YAMYvX9sf31M-35" target="mUWXqhx0YAMYvX9sf31M-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-35" value="Modules" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#b85450;strokeWidth=2;gradientColor=#ea6b66;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="590" y="280" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUWXqhx0YAMYvX9sf31M-37" value="file_integrity" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=2;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="700" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0rz76Cg22YLQuM0ArrYH" name="Commandline options">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="K-au327YN_oSlJkcZ0po-0" />
+        <mxCell id="K-au327YN_oSlJkcZ0po-1" parent="K-au327YN_oSlJkcZ0po-0" />
+        <mxCell id="K-au327YN_oSlJkcZ0po-3" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;Command&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;SubCommand&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;options&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;./auditbat&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;test config&lt;/td&gt;&lt;td&gt;-e&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;setup&lt;/td&gt;&lt;td&gt;-e&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Value 11&lt;/td&gt;&lt;td&gt;Value 12&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;autosize=1;" vertex="1" parent="K-au327YN_oSlJkcZ0po-1">
+          <mxGeometry x="50" y="50" width="230" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
