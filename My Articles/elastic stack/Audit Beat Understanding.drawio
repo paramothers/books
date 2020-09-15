@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-15T16:01:46.980Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="rsNHFw-V1vGzi9ObUd2D" version="13.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-15T16:19:05.235Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="AHRVMcxZkpa5fzLLrsnI" version="13.6.9" type="github" pages="4">
   <diagram id="ivCzKrt9nUP7SNp9OQbt" name="General">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -183,10 +183,10 @@
         <mxCell id="1Jhf7MvavoXr6iwOzlv0-15" value="logging settings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=2;fillColor=#ffff88;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
           <mxGeometry x="40" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1Jhf7MvavoXr6iwOzlv0-16" value="HTTP Endpoint" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b46504;strokeWidth=2;fillColor=#fad7ac;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-16" value="HTTP Endpoint&lt;br&gt;(monitor beat itself)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;strokeWidth=2;fillColor=#ffcd28;gradientColor=#ffa500;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
           <mxGeometry x="170" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1Jhf7MvavoXr6iwOzlv0-17" value="instrumentation settings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0e8088;strokeWidth=2;fillColor=#b0e3e6;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-17" value="instrumentation settings&lt;br&gt;( need Go agent and APM server )" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=2;fillColor=#ffff88;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
           <mxGeometry x="340" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
