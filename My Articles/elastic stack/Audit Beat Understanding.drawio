@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-15T15:42:35.197Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="EZqe3F7QMOnNYou39wr9" version="13.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-15T16:01:46.980Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="rsNHFw-V1vGzi9ObUd2D" version="13.6.9" type="github" pages="4">
   <diagram id="ivCzKrt9nUP7SNp9OQbt" name="General">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -144,7 +144,7 @@
         <mxCell id="1Jhf7MvavoXr6iwOzlv0-2" value="general settings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BD7000;strokeWidth=2;fillColor=#f0a30a;fontColor=#ffffff;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
           <mxGeometry x="340" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1Jhf7MvavoXr6iwOzlv0-3" value="processors" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ae4132;strokeWidth=2;fillColor=#fad9d5;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-3" value="processors" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=2;fillColor=#f8cecc;gradientColor=#ea6b66;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
           <mxGeometry x="340" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1Jhf7MvavoXr6iwOzlv0-4" value="project path settings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=2;fillColor=#cdeb8b;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
@@ -167,6 +167,27 @@
         </mxCell>
         <mxCell id="1Jhf7MvavoXr6iwOzlv0-10" value="index template settings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BD7000;strokeWidth=2;fillColor=#f0a30a;fontColor=#ffffff;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
           <mxGeometry x="500" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-11" value="Kibana dashboard configuration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#23445d;strokeWidth=2;fillColor=#bac8d3;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="640" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-12" value="Kibana connections settings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ae4132;strokeWidth=2;fillColor=#fad9d5;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="640" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-13" value="internal queue settings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BD7000;strokeWidth=2;fillColor=#f0a30a;fontColor=#ffffff;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="40" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-14" value="logging settings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0e8088;strokeWidth=2;fillColor=#b0e3e6;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="500" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-15" value="logging settings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=2;fillColor=#ffff88;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="40" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-16" value="HTTP Endpoint" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b46504;strokeWidth=2;fillColor=#fad7ac;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="170" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jhf7MvavoXr6iwOzlv0-17" value="instrumentation settings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0e8088;strokeWidth=2;fillColor=#b0e3e6;" vertex="1" parent="z0D2IwGwkJgC5V6PRprM-1">
+          <mxGeometry x="340" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
