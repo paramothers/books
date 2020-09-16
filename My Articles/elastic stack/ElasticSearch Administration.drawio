@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-14T10:44:01.300Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="vLz_sp34asdRSlP9V2TZ" version="13.6.9" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2020-09-16T15:02:29.006Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="eV8uHAQrpWWUjcqpsl0F" version="13.6.9" type="github" pages="12">
   <diagram id="wDG5H0-7p6YG-bDGUhvO" name="SET up">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,6 +51,12 @@
         </mxCell>
         <mxCell id="YX2QTAQZij4sZOq_nftF-2" value="Run as Daemon process" style="shape=dataStorage;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="359" y="390" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8iH5pDoynPciDCCQhclp-1" value="&lt;b&gt;Production Clustor&lt;/b&gt; &lt;br&gt;to monitor Business application" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8iH5pDoynPciDCCQhclp-2" value="&lt;b&gt;Monitoring Clustor&lt;/b&gt; &lt;br&gt;to monitor Elastic stack itself" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="690" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -399,7 +405,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9m_RLX7jdpOay4QP6l3k" name="Prod ES settings">
-    <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="kHlB8dQK3G2sEtGyboNJ-0" />
         <mxCell id="kHlB8dQK3G2sEtGyboNJ-1" parent="kHlB8dQK3G2sEtGyboNJ-0" />
@@ -443,7 +449,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ReY9OTF5dtfbuHO5mWL9" name="Prod OS Settings">
-    <mxGraphModel dx="868" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="QrQ7bE5ScxU_AL47Vb09-0" />
         <mxCell id="QrQ7bE5ScxU_AL47Vb09-1" parent="QrQ7bE5ScxU_AL47Vb09-0" />
