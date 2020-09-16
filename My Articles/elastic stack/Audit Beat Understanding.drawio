@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-16T14:49:57.520Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="khGsSbhDfi94wC8Og6SP" version="13.6.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-09-16T15:12:09.812Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="GfuFkBuIi3iQiJbfgKPk" version="13.6.9" type="github" pages="6">
   <diagram id="ivCzKrt9nUP7SNp9OQbt" name="General">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -328,7 +328,13 @@
         <mxCell id="eLO1GGKQMB-hnVJAv8UT-0" value="&lt;font style=&quot;font-size: 12px ; line-height: 100%&quot;&gt;internal Collector&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=3;fontSize=25;gradientColor=#7ea6e0;fillColor=#dae8fc;" vertex="1" parent="Yn4-ij2wzsu4oYMd-6jr-1">
           <mxGeometry x="300" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eLO1GGKQMB-hnVJAv8UT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=55;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="Yn4-ij2wzsu4oYMd-6jr-1" source="eLO1GGKQMB-hnVJAv8UT-1" target="eLO1GGKQMB-hnVJAv8UT-2">
+        <mxCell id="eLO1GGKQMB-hnVJAv8UT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=55;entryDy=0;entryPerimeter=0;fontSize=12;strokeWidth=2;strokeColor=#FF66B3;" edge="1" parent="Yn4-ij2wzsu4oYMd-6jr-1" source="eLO1GGKQMB-hnVJAv8UT-1" target="eLO1GGKQMB-hnVJAv8UT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eLO1GGKQMB-hnVJAv8UT-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="Yn4-ij2wzsu4oYMd-6jr-1" source="eLO1GGKQMB-hnVJAv8UT-1" target="eLO1GGKQMB-hnVJAv8UT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eLO1GGKQMB-hnVJAv8UT-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="Yn4-ij2wzsu4oYMd-6jr-1" source="eLO1GGKQMB-hnVJAv8UT-1" target="eLO1GGKQMB-hnVJAv8UT-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eLO1GGKQMB-hnVJAv8UT-1" value="&lt;font style=&quot;font-size: 12px ; line-height: 100%&quot;&gt;Metricbeat collection&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;strokeWidth=3;fontSize=25;gradientColor=#97d077;fillColor=#d5e8d4;" vertex="1" parent="Yn4-ij2wzsu4oYMd-6jr-1">
@@ -340,6 +346,20 @@
         <mxCell id="eLO1GGKQMB-hnVJAv8UT-5" value="settings in auditbeat.yml" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#FB7DFF;strokeWidth=1;fontSize=12;" vertex="1" parent="Yn4-ij2wzsu4oYMd-6jr-1">
           <mxGeometry x="160" y="120" width="80" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="eLO1GGKQMB-hnVJAv8UT-7" value="metricbeat will be continue though auditbeat is die" style="text;html=1;fillColor=#ffcccc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="Yn4-ij2wzsu4oYMd-6jr-1">
+          <mxGeometry x="460" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eLO1GGKQMB-hnVJAv8UT-8" value="use of metricbeat will be seperation of concern" style="text;html=1;fillColor=#ffcc99;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;strokeColor=#36393d;strokeWidth=2;" vertex="1" parent="Yn4-ij2wzsu4oYMd-6jr-1">
+          <mxGeometry x="590" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RHYI00KqgT0coJ3MnYUy" name="Secure Audit beat">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="_rc1D0dzsGVl-v0xahm7-0" />
+        <mxCell id="_rc1D0dzsGVl-v0xahm7-1" parent="_rc1D0dzsGVl-v0xahm7-0" />
       </root>
     </mxGraphModel>
   </diagram>
