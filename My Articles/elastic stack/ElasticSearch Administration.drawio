@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T16:03:43.893Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="7a2nUxkkiRtk7wkHYCC9" version="13.6.9" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2020-09-17T19:04:42.433Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="iE3-53DOBMLXEEzH4vB1" version="13.6.9" type="github" pages="13">
   <diagram id="wDG5H0-7p6YG-bDGUhvO" name="SET up">
-    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,15 +17,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ode0zwvgy3SWJmIACKMu-1" value="ElasticSearch" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" parent="1" vertex="1">
-          <mxGeometry x="220" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="118" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ode0zwvgy3SWJmIACKMu-2" value="Open JDK, is bundled within&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="294" y="155" width="120" height="80" as="geometry" />
+        <mxCell id="ode0zwvgy3SWJmIACKMu-2" value="Open JDK, is bundled within&amp;nbsp;&lt;br&gt;(my current project)" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="120" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ode0zwvgy3SWJmIACKMu-3" value="Other version of JDK can be used by JAVA_HOME" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=16;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="414" y="70" width="120" height="80" as="geometry" />
+          <mxGeometry x="312" y="40" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ode0zwvgy3SWJmIACKMu-6" value="Run on Own Hardware" style="shape=dataStorage;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="ode0zwvgy3SWJmIACKMu-6" value="Run on Own Hardware&lt;br&gt;(my current project)" style="shape=dataStorage;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="180" y="300" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ode0zwvgy3SWJmIACKMu-7" value="Run in AWS" style="shape=dataStorage;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
@@ -37,8 +37,8 @@
         <mxCell id="ode0zwvgy3SWJmIACKMu-10" value="Install by Ansible / Puppet / Chef" style="shape=or;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="190" y="375" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ode0zwvgy3SWJmIACKMu-11" value="I prefer, &lt;br&gt;to use tar version of &lt;br&gt;ES in all the OS.&amp;nbsp; &lt;br&gt;&lt;br&gt;The advantages of using &lt;br&gt;.&lt;b&gt;deb&lt;/b&gt; or .&lt;b&gt;rpm&lt;/b&gt; file, &lt;br&gt;it will set some &lt;br&gt;&lt;b&gt;kernal parameters&lt;/b&gt; during &lt;br&gt;installation" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="570" y="20" width="230" height="210" as="geometry" />
+        <mxCell id="ode0zwvgy3SWJmIACKMu-11" value="I prefer, &lt;br&gt;to use &lt;b&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;tar&lt;/font&gt;&lt;/b&gt; version of &lt;br&gt;ES in all the OS.&amp;nbsp; &lt;br&gt;&lt;br&gt;The advantages of using &lt;br&gt;.&lt;b&gt;deb&lt;/b&gt; or .&lt;b&gt;rpm&lt;/b&gt; file, &lt;br&gt;it will set some &lt;br&gt;&lt;b&gt;kernal parameters&lt;/b&gt; during &lt;br&gt;installation" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="500" y="-10" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="ode0zwvgy3SWJmIACKMu-12" value="Download Current release&amp;nbsp;" style="shape=card;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="200" y="535" width="150" height="65" as="geometry" />
@@ -46,7 +46,7 @@
         <mxCell id="ode0zwvgy3SWJmIACKMu-13" value="Download Past Release" style="shape=card;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="384" y="535" width="150" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="YX2QTAQZij4sZOq_nftF-1" value="Run in&amp;nbsp; Container" style="shape=dataStorage;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="YX2QTAQZij4sZOq_nftF-1" value="Run in&amp;nbsp; Docker" style="shape=dataStorage;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="500" y="390" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YX2QTAQZij4sZOq_nftF-2" value="Run as Daemon process" style="shape=dataStorage;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" parent="1" vertex="1">
@@ -57,6 +57,9 @@
         </mxCell>
         <mxCell id="8iH5pDoynPciDCCQhclp-2" value="&lt;b&gt;Monitoring Clustor&lt;/b&gt; &lt;br&gt;to monitor Elastic stack itself" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="320" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MKwJxb48vifpwfYJuNSh-1" value="&lt;b&gt;Ansible&lt;/b&gt;,&lt;br&gt;&amp;nbsp;can be used to &lt;br&gt;update any settings of elastic stack accross many machine, which run beats" style="shape=or;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="630" y="520" width="170" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
