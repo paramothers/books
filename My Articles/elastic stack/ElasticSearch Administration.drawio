@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T09:52:52.743Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="6vmkiwukMDp4TECS2g5z" version="13.6.9" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2020-09-17T10:03:36.855Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="oj8-KbfmjZg2ZZatrt1y" version="13.6.9" type="github" pages="13">
   <diagram id="wDG5H0-7p6YG-bDGUhvO" name="SET up">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -286,7 +286,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ej-CohBFWZFMFewz5DtO" name="Node &amp; Cluster">
-    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Ugl7BQKOG8BAdIkcvLxV-0" />
         <mxCell id="Ugl7BQKOG8BAdIkcvLxV-1" parent="Ugl7BQKOG8BAdIkcvLxV-0" />
@@ -1027,6 +1027,29 @@
         </mxCell>
         <mxCell id="MSqrLhqQhR_4yetF-JMV-21" value="creating new index with few shard from existing many-shard index, by reindexing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="MSqrLhqQhR_4yetF-JMV-1">
           <mxGeometry x="90" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SrFzG1dd7cV0LcfabG8D" name="Current Client">
+    <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="EhxBdSw1N4XDZ7um-hOL-0" />
+        <mxCell id="EhxBdSw1N4XDZ7um-hOL-1" parent="EhxBdSw1N4XDZ7um-hOL-0" />
+        <mxCell id="EhxBdSw1N4XDZ7um-hOL-2" value="&lt;b&gt;&lt;u&gt;ES - 1&lt;/u&gt;&lt;/b&gt;&lt;br&gt;One master only node" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#71BD97;strokeWidth=3;" vertex="1" parent="EhxBdSw1N4XDZ7um-hOL-1">
+          <mxGeometry x="170" y="220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EhxBdSw1N4XDZ7um-hOL-3" value="&lt;b&gt;&lt;u&gt;ES - 2&lt;/u&gt;&lt;/b&gt;&lt;br&gt;One master only node" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#71BD97;strokeWidth=3;" vertex="1" parent="EhxBdSw1N4XDZ7um-hOL-1">
+          <mxGeometry x="390" y="50" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EhxBdSw1N4XDZ7um-hOL-4" value="&lt;b&gt;&lt;u&gt;ES - 3&lt;/u&gt;&lt;/b&gt;&lt;br&gt;One master only node" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#71BD97;strokeWidth=3;" vertex="1" parent="EhxBdSw1N4XDZ7um-hOL-1">
+          <mxGeometry x="670" y="230" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EhxBdSw1N4XDZ7um-hOL-5" value="&lt;b&gt;&lt;u&gt;Beats &amp;amp; Logstash&lt;/u&gt;&lt;/b&gt;&lt;br&gt;One instance of Metricbeat for monitoring cluster&lt;br&gt;one instance of Heartbeat" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#71BD97;strokeWidth=3;" vertex="1" parent="EhxBdSw1N4XDZ7um-hOL-1">
+          <mxGeometry x="200" y="370" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EhxBdSw1N4XDZ7um-hOL-6" value="&lt;b&gt;&lt;u&gt;Kibana&lt;/u&gt;&lt;/b&gt;&lt;br&gt;One instance of Kibana for monitoring cluster&lt;br&gt;Another one instance of Kibana for production cluster" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#71BD97;strokeWidth=3;" vertex="1" parent="EhxBdSw1N4XDZ7um-hOL-1">
+          <mxGeometry x="540" y="370" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
