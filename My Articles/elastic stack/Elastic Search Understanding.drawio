@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T15:33:51.270Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="3KaWIcoYCyienQzuR-gb" version="13.6.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-09-17T15:35:35.084Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="EOpEOtW69_1z8CB58Dfi" version="13.6.9" type="github" pages="5">
   <diagram id="YEvQqRV3Q-EkDs913GGv" name="ES-General">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -543,6 +543,9 @@
         </mxCell>
         <mxCell id="rCI2Y2mQv_gbbBWFfh5F-22" value="Field&lt;br&gt;(Key-value)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#FF4AFF;strokeWidth=2;" vertex="1" parent="rCI2Y2mQv_gbbBWFfh5F-1">
           <mxGeometry x="230" y="780" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rCI2Y2mQv_gbbBWFfh5F-24" value="Collection of Node is Cluser.&lt;br&gt;&lt;br&gt;Usually, a cluster lives in acorss few server box" style="text;html=1;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="rCI2Y2mQv_gbbBWFfh5F-1">
+          <mxGeometry x="630" y="100" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
