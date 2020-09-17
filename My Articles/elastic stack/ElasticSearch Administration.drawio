@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-16T16:25:19.202Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="WBUPScff5YWN5GiwotnJ" version="13.6.9" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2020-09-17T09:52:52.743Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="6vmkiwukMDp4TECS2g5z" version="13.6.9" type="github" pages="12">
   <diagram id="wDG5H0-7p6YG-bDGUhvO" name="SET up">
     <mxGraphModel dx="868" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -402,19 +402,25 @@
           <mxGeometry x="570" y="414" width="250" height="156" as="geometry" />
         </mxCell>
         <mxCell id="5TgDz_DJVPFYZRie3xmL-0" value="AuditBeat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Ugl7BQKOG8BAdIkcvLxV-1">
-          <mxGeometry x="195" y="890" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5TgDz_DJVPFYZRie3xmL-1" value="HeartBeat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Ugl7BQKOG8BAdIkcvLxV-1">
-          <mxGeometry x="365" y="890" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5TgDz_DJVPFYZRie3xmL-2" value="WinlogBeat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Ugl7BQKOG8BAdIkcvLxV-1">
-          <mxGeometry x="525" y="890" width="120" height="60" as="geometry" />
+          <mxGeometry x="525" y="890" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5TgDz_DJVPFYZRie3xmL-3" value="MetricBeat ( monitor other beats of production ) Run&amp;nbsp; in Dev box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ugl7BQKOG8BAdIkcvLxV-1">
-          <mxGeometry x="195" y="960" width="455" height="40" as="geometry" />
+          <mxGeometry x="137.5" y="960" width="612.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5TgDz_DJVPFYZRie3xmL-4" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=3;shape=mxgraph.mockup.markup.curlyBrace;rotation=-180;strokeColor=#71BD97;" vertex="1" parent="Ugl7BQKOG8BAdIkcvLxV-1">
           <mxGeometry x="70" y="830" width="700" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O3Peg9Ra1E7VifuCyLOj-0" value="APM server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Ugl7BQKOG8BAdIkcvLxV-1">
+          <mxGeometry x="130" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O3Peg9Ra1E7VifuCyLOj-1" value="Filebeat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Ugl7BQKOG8BAdIkcvLxV-1">
+          <mxGeometry x="640" y="890" width="105" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
